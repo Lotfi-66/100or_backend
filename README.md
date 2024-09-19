@@ -87,4 +87,12 @@ cconsole d:m:m
 docker exec -it apache_100 php bin/console make:entity
 
 docker exec -it apache_100 php bin/console make:migration
+docker exec -it apache_100 composer require easycorp/easyadmin-bundle
 
+docker exec -it apache_100 php bin/console make:entity
+
+docker exec -it apache_100 php bin/console make:migration
+
+composer require easycorp/easyadmin-bundle
+
+docker exec -it apache_100 php bin/console make:admin:dashboard
