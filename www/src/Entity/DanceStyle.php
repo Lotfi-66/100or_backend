@@ -108,4 +108,9 @@ class DanceStyle
     {
         return $this->dancer;
     }
+
+    public function __toString()
+    {
+        return $this->name;
+    }
 }

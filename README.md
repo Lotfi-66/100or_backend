@@ -96,3 +96,5 @@ docker exec -it apache_100 php bin/console make:migration
 composer require easycorp/easyadmin-bundle
 
 docker exec -it apache_100 php bin/console make:admin:dashboard
+
+docker exec -it apache_100 composer require symfony/security-bundle
