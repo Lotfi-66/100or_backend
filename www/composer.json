@@ -12,7 +12,7 @@
         "doctrine/doctrine-bundle": "^2.11",
         "doctrine/doctrine-migrations-bundle": "^3.3",
         "doctrine/orm": "^2.18",
-        "easycorp/easyadmin-bundle": "^4.9",
+        "easycorp/easyadmin-bundle": "^4.12",
         "james-heinrich/getid3": "^1.9",
         "nelmio/cors-bundle": "^2.4",
         "phpdocumentor/reflection-docblock": "^5.3",
