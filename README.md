@@ -84,3 +84,7 @@ cconsole d:m:m
 
 ## ENJOY :)
 
+docker exec -it apache_100 php bin/console make:entity
+
+docker exec -it apache_100 php bin/console make:migration
+
